@@ -8,7 +8,7 @@ const header = () => {
     <>
       <header className='header-top-strip p-3'>
         <div className='container-xxl'>
-          <div className='row'>
+          <div className='row align-items-center'>
             <div className='col-6'>
               <p>The Trending outfits at 100% off</p> {/* Fixed the typo in "The" */}
             </div>
@@ -22,6 +22,14 @@ const header = () => {
               </div>
             </div>
           </div>
+        </div>
+      </header>
+      <header className='header-upper'>
+        <div className='container-xxl'>
+          <div className='row'>
+            
+          </div>
+
         </div>
       </header>
     </>
