@@ -9,9 +9,9 @@ const Header = () => {
     <>
       <header className='header-top-strip p-3'>
         <div className='container-xxl'>
-          <div className='row align-items-center'>
+          <div className='row d-flex m-auto align-items-center'>
             <div className='col-6'>
-              <p>The Trending outfits at 100% off</p> {/* Fixed the typo in "The" */}
+              <p>The Trending outfits at 100% off</p>
             </div>
             <div className='col-6 d-flex-justify-content-between'>
               <div>
@@ -31,13 +31,14 @@ const Header = () => {
             <div className='col-2'>
              <Link to='/'><img src={logo} alt="" className='img-fluid logo' /></Link>
             </div>
-            <div className="col-3">
+            <div className="col-3 text-center">
             <div className="input-group mb-3">
-  <input type="text" className="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" />
-  <span className="input-group-text" id="basic-addon2">@example.com</span>
-</div>
+            <span className='input-text-text' id="basic-addon1">All</span>
+            <input type="text" className="form-control" placeholder="Search products" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+            <button className="input-group-text" id="basic-addon2"><button>Search</button></button>
+          </div>
             </div>
-            <div className="col-4 d-flex align-items-center justify-content-between">
+            <div className="col-4 d-flex align-items-center justify-content-between text-center">
               <Link to={'/'}>Home</Link>
               <Link to={'shop'}>Shop</Link>
               <Link to={'blogs'}>Blog</Link>

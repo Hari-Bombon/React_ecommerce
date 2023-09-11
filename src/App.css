@@ -37,9 +37,18 @@ p{
   font-size: 14px;
 }
 
-/*Header starts here */
-.header-top-strip{
+button{
+  padding: 12px 10px;
+  font-size: 14px;
+  background: var(--primary1);
+  color: white;
+}
 
+
+/*Header starts here */
+.input-group button{
+  background: transparent;
+  font-size:14px;
 }
 
 /*Header ends here */
