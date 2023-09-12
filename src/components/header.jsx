@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BiPhoneCall } from 'react-icons/bi';
-import {Link} from 'react-router-dom'
-import logo from'../assets/logo.png'
+import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png';
+import {HiOutlineInboxIn} from 'react-icons/hi';
+import { VscAccount} from 'react-icons/vsc'
 
 const Header = () => {
   return (
@@ -45,8 +47,11 @@ const Header = () => {
               <Link to={'about'}>About</Link>
               <Link to={'contact'}>Contact</Link>
             </div>
-            <div className="col-5">
-
+            <div className="col-3 d-flex align-item-center justify-content-around">
+              <Link className='mx-2'><HiOutlineInboxIn/>
+              <span>Wishlist</span>
+              </Link>
+              <Link><VscAccount/></Link>
             </div>
           </div>
 
@@ -56,5 +61,5 @@ const Header = () => {
   );
 };
 
-export default Header 
+export default Header;
 
