@@ -1,10 +1,13 @@
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BiPhoneCall } from 'react-icons/bi';
+import { AiOutlineMail } from 'react-icons/ai';
+import { VscAccount } from 'react-icons/vsc';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
-import {HiOutlineInboxIn} from 'react-icons/hi';
-import { VscAccount} from 'react-icons/vsc'
+import { HiOutlineInboxIn } from 'react-icons/hi';
+import { VscAccount } from 'react-icons/vsc';
+import { CgShoppingCart } from 'react-icons/cg';
 
 const Header = () => {
   return (
@@ -12,7 +15,7 @@ const Header = () => {
       <header className='header-top-strip p-3'>
         <div className='container-xxl'>
           <div className='row d-flex m-auto align-items-center'>
-            <div className='col-6'>
+            <div className='col-2'>
               <p>The Trending outfits at 100% off</p>
             </div>
             <div className='col-6 d-flex-justify-content-between'>
@@ -47,11 +50,16 @@ const Header = () => {
               <Link to={'about'}>About</Link>
               <Link to={'contact'}>Contact</Link>
             </div>
-            <div className="col-3 d-flex align-item-center justify-content-around">
-              <Link className='mx-2'><HiOutlineInboxIn/>
-              <span>Wishlist</span>
+            <div className="nav-links col-3 d-flex align-item-center justify-content-around">
+              <Link className='d-flex' ><HiOutlineInboxIn className="fs-3 mx-2"/>
+              <p className=''>Wishlist</p>
               </Link>
-              <Link><VscAccount/></Link>
+              <Link className='d-flex'><VscAccount className="fs-3 mx-2 "/>
+              <p>Account</p>
+              </Link>
+              <Link className='d-flex'><VscAccount/>
+              <p><CgShoppingCart className="fs-3 mx-2" /></p>
+              </Link>
             </div>
           </div>
 
