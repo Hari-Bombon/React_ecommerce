@@ -12,7 +12,7 @@ import { CgShoppingCart } from 'react-icons/cg';
 const Header = () => {
   return (
     <>
-      <header className='header-top-strip p-3'>
+      <header className='header-top-strip p-1 px-4 shadow-sm'>
         <div className='container-xxl'>
           <div className='row d-flex m-auto align-items-center'>
             <div className='col-2'>
@@ -33,10 +33,10 @@ const Header = () => {
       <header className='header-upper p-5 shadow-sm'>
         <div className='container-xxl'>
           <div className='row'>
-            <div className='col-2'>
-             <Link to='/'><img src={logo} alt="" className='img-fluid logo' /></Link>
+            <div className='col-2 text-center'>
+             <Link to='/'><img src={logo} alt="" className='img-fluid logo ' /></Link>
             </div>
-            <div className="col-3 text-center">
+            <div className="col-3 d-flex align-items-center mt-3 ">
             <div className="input-group mb-3">
             <span className='input-text-text' id="basic-addon1">All</span>
             <input type="text" className="form-control" placeholder="Search products" aria-label="Recipient's username" aria-describedby="basic-addon2" />
