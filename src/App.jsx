@@ -9,6 +9,9 @@ import Blog from './pages/blog'
 import Contact from './pages/contact'
 import Home from './pages/home'
 import Shop from './pages/shop'
+import Cart from './pages/cart'
+import Login from './pages/login'
+import Wishlist from '/pages/wishlist'
 
 
 function App() {
@@ -24,6 +27,9 @@ function App() {
             <Route path='blog' element={<Blog />}/>
               <Route path='about' element={<About/>}/>
               <Route path='contact' element={<Contact/>}/>
+              <Route path='cart' element={<Cart/>}/>
+              <Route path='login' element={<Login/>}/>
+              <Route path='wishlist' element={<Wishlist/>}/>
       </Route>
     </Routes>
     </BrowserRouter>

@@ -51,14 +51,14 @@ const Header = () => {
               <Link to={'contact'}>Contact</Link>
             </div>
             <div className="nav-links col-3 d-flex align-item-center justify-content-around">
-              <Link className='d-flex' ><HiOutlineInboxIn className="fs-3 mx-2"/>
+              <Link to={'wishlist'}className='d-flex' ><HiOutlineInboxIn className="fs-3 mx-2"/>
               <p className=''>Wishlist</p>
               </Link>
-              <Link className='d-flex'><VscAccount className="fs-3 mx-2 "/>
+              <Link to={'login'}className='d-flex'><VscAccount className="fs-3 mx-2 "/>
               <p>Account</p>
               </Link>
-              <Link className='d-flex'><VscAccount/>
-              <p><CgShoppingCart className="fs-3 mx-2" /></p>
+              <Link to={'cart'} className='d-flex'><VscAccount/>
+              <p><CgShoppingCart className="fs-3 mx-2" />Cart</p>
               </Link>
             </div>
           </div>

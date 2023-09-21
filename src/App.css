@@ -42,6 +42,7 @@ button{
 .input-group button{
   background: transparent;
   font-size:14px;
+  color: var(--search);
 }
 
 .header-upper{
@@ -53,6 +54,18 @@ button{
   color: var(--primary1);
 }
 
+.nav-links-nav a{
+  color:(--search);
+}
 
 
 /*Header ends here */
+/* Footer starts*/
+footer{
+  background-color: var(--lighter2);
+}
+
+footer.social-icons a{
+  
+}
+/* Footer end*/
