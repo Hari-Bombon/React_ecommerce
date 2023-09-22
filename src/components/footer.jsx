@@ -2,6 +2,8 @@ import React from 'react'
 import{ AiFillTwitterCircle} from 'react-icons/ai'
 import { Link } from 'react-router-dom';
 import {BsFacebook , BsInstagram , BsLinkedin} from 'react-icons/bs'
+import google from '../assets/pay/google-play-logo.jpg'
+import  app from '../assets/pay/available-the-app-store-logo-png-images-14.png'
 
 
 const Footer = () => {
@@ -65,6 +67,16 @@ const Footer = () => {
               <Link className='mb-3'>
               Coupons
               </Link>
+          </div>
+        </div>
+        <div className="col-4">
+          <h3 className='mb-3'>Install App</h3>
+          <div className="footer-details">
+            <p>Available On Google Play Services & App Store</p>
+            <div className='p-4 my-4 '>
+            < img src={google} alt="" className='img-fluid p-3'/>
+            <img src={app} alt="" className='img-fluid'/>
+            </div>
           </div>
         </div>
       </div>
