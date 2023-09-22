@@ -55,8 +55,13 @@ button{
 }
 
 .nav-links-nav a{
-  color:(--search);
+  color:var(--search);
 }
+
+.social-icons a{
+  color:var(--search);
+}
+
 
 
 /*Header ends here */
@@ -65,7 +70,5 @@ footer{
   background-color: var(--lighter2);
 }
 
-footer.social-icons a{
-  
-}
+
 /* Footer end*/
