@@ -73,10 +73,18 @@ const Footer = () => {
           <h3 className='mb-3'>Install App</h3>
           <div className="footer-details">
             <p>Available On Google Play Services & App Store</p>
-            <div className='p-4 my-4 '>
-            < img src={google} alt="" className='img-fluid p-3'/>
-            <img src={app} alt="" className='img-fluid'/>
+            <div className='pay'>
+          <Link>
+           < img src={google} alt="" className='img-fluid p-3 my-3'/>
+           </Link>
+           <Link>
+            <img src={app} alt="" className='img-fluid p-3 my-3'/>
+            </Link>
             </div>
+            <p className='mb-2'>Payment Methods</p>
+            <Link>
+           < img src={google} alt="" className='img-fluid p-3 my-3'/>
+           </Link>
           </div>
         </div>
       </div>

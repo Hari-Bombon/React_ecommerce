@@ -69,6 +69,12 @@ button{
 footer{
   background-color: var(--lighter2);
 }
+.pay img{
+  transition: 0.5s ease;
+}
+.pay img:hover{
+  transform: translateY(-8px);
+}
 
 
 /* Footer end*/
