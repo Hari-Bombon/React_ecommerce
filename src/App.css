@@ -37,6 +37,15 @@ button{
   color: white;
 }
 
+.active{
+  font-size: 600;
+  color: var(--primary);
+}
+
+.inactive{
+  color:var(--primary1);
+  font-size: 500;
+}
 
 /*Header starts here */
 .header-top-strip a{
@@ -55,7 +64,7 @@ button{
 .nav-links{
   font-size: 16px;
   text-transform: uppercase;
-  color: var(--primary1);
+  text-decoration: none;
 }
 
 .nav-links-nav a{
