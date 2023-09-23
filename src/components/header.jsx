@@ -33,9 +33,9 @@ const Header = () => {
       <header className='header-upper p-5 shadow-sm'>
         <div className='container-xxl'>
           <div className='row'>
-            <div className='col-2 text-center'>
-             <Link to='/'><img src={logo} alt="" className='img-fluid logo ' /></Link>
-            </div>
+          <div className='col-2 text-center'>
+            <Link to='/'><img src={logo} alt="" className='img-fluid logo ' /></Link>
+          </div>
             <div className="col-3 d-flex align-items-center mt-3 ">
             <div className="input-group mb-3">
             <span className='input-text-text' id="basic-addon1">All</span>

@@ -39,6 +39,10 @@ button{
 
 
 /*Header starts here */
+.header-top-strip a{
+  color: var(--primary);
+
+}
 .input-group button{
   background: transparent;
   font-size:14px;
@@ -74,6 +78,10 @@ footer{
 }
 .pay img:hover{
   transform: translateY(-8px);
+}
+
+.footer-details a{
+  color:var(--primary)
 }
 
 

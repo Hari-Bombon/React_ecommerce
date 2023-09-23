@@ -11,7 +11,8 @@ import Home from './pages/home'
 import Shop from './pages/shop'
 import Cart from './pages/cart'
 import Login from './pages/login'
-import Wishlist from '/pages/wishlist'
+import Wishlist from './pages/wishlist';
+
 
 
 function App() {

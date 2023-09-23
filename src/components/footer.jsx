@@ -3,7 +3,7 @@ import{ AiFillTwitterCircle} from 'react-icons/ai'
 import { Link } from 'react-router-dom';
 import {BsFacebook , BsInstagram , BsLinkedin} from 'react-icons/bs'
 import google from '../assets/pay/google-play-logo.jpg'
-import  app from '../assets/pay/available-the-app-store-logo-png-images-14.png'
+import  pay from '../assets/pay/available-the-app-store-logo-png-images-14.png'
 
 
 const Footer = () => {
@@ -19,7 +19,7 @@ const Footer = () => {
             <p className='mb-5'><b>Hours Open:</b> From 10 A.M to 11 P.M</p>
              <p className='mb-3'><b>Follow Us</b></p>
               <div className="col-4 social-icons d-flex justify-content-around">
-                <Link><AiFillTwitterCircle className='fs-4'/></Link>
+              <Link to="#" key="twitter"><AiFillTwitterCircle className='fs-4'/></Link>
                 <Link><BsFacebook className='fs-4'/></Link>
                 <Link><BsInstagram className='fs-4' /></Link>
                 <Link><BsLinkedin className='fs-4'/></Link>
@@ -77,8 +77,8 @@ const Footer = () => {
           <Link>
            < img src={google} alt="" className='img-fluid p-3 my-3'/>
            </Link>
-           <Link>
-            <img src={app} alt="" className='img-fluid p-3 my-3'/>
+           <Link className='pay'>
+            <img src={pay} alt="" className='img-fluid p-3 my-3'/>
             </Link>
             </div>
             <p className='mb-2'>Payment Methods</p>
