@@ -29,6 +29,11 @@ p{
   font-size: 14px;
   margin: auto;
 }
+h1{
+  font-weight: 500;
+  color: var(--search);
+  margin: 20px;
+}
 
 button{
   padding: 12px 10px;
@@ -102,5 +107,6 @@ footer{
   background-size: cover;
   width: 100%;
   height: 40vh; 
+  
 }
 /* Home ends*/
