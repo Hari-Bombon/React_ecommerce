@@ -1,13 +1,17 @@
-import React from 'react'
+import {React } from 'react'
+import {Link} from 'react-router-dom;'
 
-const home = () => {
+const Home = () => {
   return <>
   <section className='banner p-5'>
     <div className="container-xxl">
       <div className="row">
-      <div className="banner-details d-flex flex-column align-items-center justify-content-center">
-        <span className='shadow-lg p-4'>Trade in offer !!</span>
+      <div className="banner-details p-5 d-flex flex-column align-items-start justify-content-center">
+        <span className='shadow-lg p-4 text-white'>Trade in offer !!</span>
         <h1>Super Value Deals</h1>
+        <h2>On All products</h2>
+        <p>Save more with Apneck</p>
+        <Link className='button-link mb-3'>Shop Now</Link>
       </div>
       </div>
     </div>
@@ -17,4 +21,4 @@ const home = () => {
   
 }
 
-export default home
+export default Home
