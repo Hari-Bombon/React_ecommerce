@@ -1,12 +1,10 @@
 import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
 import { BiPhoneCall } from 'react-icons/bi';
 import { AiOutlineMail } from 'react-icons/ai';
 import { VscAccount } from 'react-icons/vsc';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import { HiOutlineInboxIn } from 'react-icons/hi';
-import { VscAccount } from 'react-icons/vsc';
 import { CgShoppingCart } from 'react-icons/cg';
 
 const Header = () => {
