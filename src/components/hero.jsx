@@ -7,21 +7,36 @@ const hero = () => {
     <div className='hero p-5'>
         <div className='container-xxl'>
             <div className='hero-details d-flex justify-content-around'>
+              <div className="card-details">
               <div className='card p-2'>
-                <img src={icon} alt="" className='img-fluid'/>
+                <img src={icon} alt="" className='img-fluid '/>
                 <p>Fast Orders</p>
               </div>
-              <div className='card p-2'>
+              </div>
+              
+            <div className="card-details">
+            <div className='card p-2'>
                 <img src={icon} alt="" className='img-fluid'/>
                 <p>Fast Shipping</p>
               </div>
-              <div className='card p-2'>
+            </div>
+             <div className="card-details">
+             <div className='card p-2'>
                 <img src={icon} alt="" className='img-fluid'/>
                 <p>24*7 Support</p>
               </div>
+             </div>
+              <div className="card-details">
               <div className='card p-2'>
                 <img src={icon} alt="" className='img-fluid'/>
                 <p>High Savings</p>
+              </div>
+              </div>
+              <div className="card-details">
+              <div className='card p-2'>
+                <img src={icon} alt="" className='img-fluid'/>
+                <p>Discount</p>
+              </div>
               </div>
             </div>
         </div>
